@@ -27,6 +27,7 @@
 - [ ] 한글 데이터셋 생성
 	- [ ] Stanford Alpaca의 52k dataset 번역
 	- [ ] ChatGPT api를 이용한 추가 데이터 생성
+	- [ ] 네이버 지식in api 활용한 데이터 수집
 - [ ] Model Prompt 구현 및 파인튜닝
 - [ ] Fastapi를 사용하여 Rest api 작성
 - [ ] api형태로 배포하여 app에서 활용가능하게 결합
