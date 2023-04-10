@@ -9,3 +9,8 @@
 # 3. 집 데스크탑에선 되는데 노트북에선 해결되지 않는 문제
 - virtual device
 - firebase 연동
+
+# 4. android studio virtual device에서 영어만 가능
+에러라기보다는 의문점
+TextField안에 게시판의 제목,아이디,내용을 적을때 영어만 나타남
+한국어로 바꿀 수는 없나?
