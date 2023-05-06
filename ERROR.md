@@ -14,3 +14,12 @@
 에러라기보다는 의문점
 TextField안에 게시판의 제목,아이디,내용을 적을때 영어만 나타남
 한국어로 바꿀 수는 없나?
+
+# 5. AttributeError: 'NoneType' object has no attribute 'shape' 에러발생
+ 데이터셋을 AI hub에서 구해와 yolov5를 돌리다가 결과가 부정확해서
+ 데이터 증식(generator)을 위해 shift range코드 작성중
+ 제목과 같은 에러가 발생하였다.
+ images폴더 안의 이미지파일과 labels폴더 안의 텍스트파일 둘 다 고치는 코드를 작성하다보니
+ 경로문제라고 생각하여 확인해보았지만 경로는 정확하였다.
+ 구글링결과 (참고블로그: https://suy379.tistory.com/75)
+ 경로에 한글이 들어가있어도 이와같은 에러가 뜬다고 하여 한글을 모두 숫자로 바꿔주었더니 에러가 해결되었다.
