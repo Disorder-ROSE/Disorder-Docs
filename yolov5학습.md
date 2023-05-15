@@ -27,4 +27,12 @@ shift range 이미지 추가 후 학습결과:
 ![image](https://user-images.githubusercontent.com/101008357/236688329-c045854d-3619-4d43-9d7c-fef407483326.png)
 터져서 batchsize 20 -> 10 으로 줄이고 다시 돌리기로 했다. 대신 더 오래 걸린다.
 
-horizon flip 이미지 추가 후 학습결과: 
+horizon flip 이미지 추가 후 학습결과: 에러발생. 
+데이터셋 문제(filp추가한 코드 문제)
+![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/9b302ee5-00b1-409a-9b72-dc87ae942d6b)
+
+# 4. 이미지 Resize
+이미지 크기를 640*640으로 줄여주었음.
+
+이유: 용량문제, 다운속도
+
