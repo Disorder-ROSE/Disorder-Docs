@@ -27,7 +27,9 @@ shift range 이미지 추가 후 학습결과:
 ![image](https://user-images.githubusercontent.com/101008357/236688329-c045854d-3619-4d43-9d7c-fef407483326.png)
 터져서 batchsize 20 -> 10 으로 줄이고 다시 돌리기로 했다. 대신 더 오래 걸린다.
 
+
 horizon flip 이미지 추가 후 학습결과: 에러발생. 
+
 데이터셋 문제(filp추가한 코드 문제)
 
 구체적으로는 이미지쪽은 정상적으로 증가되었으나, 라벨링 코드를 잘못 짜서 다시 짜주었음.
