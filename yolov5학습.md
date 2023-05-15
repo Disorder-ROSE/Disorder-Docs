@@ -29,6 +29,8 @@ shift range 이미지 추가 후 학습결과:
 
 horizon flip 이미지 추가 후 학습결과: 에러발생. 
 데이터셋 문제(filp추가한 코드 문제)
+
+구체적으로는 이미지쪽은 정상적으로 증가되었으나, 라벨링 코드를 잘못 짜서 다시 짜주었음.
 ![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/9b302ee5-00b1-409a-9b72-dc87ae942d6b)
 
 # 4. 이미지 Resize
