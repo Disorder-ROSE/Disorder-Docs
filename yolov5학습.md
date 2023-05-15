@@ -23,12 +23,11 @@ shift range 로만 양을 늘렸을땐 이미지양이 2배가 되었는데,
 
 이미지양이 많이 늘었기 때문에 yolo로 학습시키기 위해선 yolov5m->s로 다시 줄이면 될 것 같았다.
 
-shift range 이미지 추가 후 학습결과: 
+- shift range 이미지 추가 후 학습결과: 
 ![image](https://user-images.githubusercontent.com/101008357/236688329-c045854d-3619-4d43-9d7c-fef407483326.png)
 터져서 batchsize 20 -> 10 으로 줄이고 다시 돌리기로 했다. 대신 더 오래 걸린다.
 
-
-horizon flip 이미지 추가 후 학습결과: 에러발생. 
+- horizon flip 이미지 추가 후 학습결과: 에러발생. 
 
 데이터셋 문제(filp추가한 코드 문제)
 
