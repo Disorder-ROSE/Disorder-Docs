@@ -42,6 +42,8 @@ shift range 로만 양을 늘렸을땐 이미지양이 2배가 되었는데,
 ```python
 !python train.py --img 480 --batch 20 --epochs 60 --data /content/drive/MyDrive/Rose/Dataset/data.yaml --cfg ./models/yolov5m.yaml --weights yolov5m.pt --name result8
 ```
+![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/aa2c3922-5276-4712-a0ec-753267b51e2e)
+
 
 # 4. 이미지 Resize
 이미지 크기를 640*640으로 줄여주었음.
