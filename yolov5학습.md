@@ -32,7 +32,16 @@ shift range 로만 양을 늘렸을땐 이미지양이 2배가 되었는데,
 데이터셋 문제(filp추가한 코드 문제)
 
 구체적으로는 이미지쪽은 정상적으로 증가되었으나, 라벨링 코드를 잘못 짜서 다시 짜주었음.
+
+아래의 결과들은 4번과정(이미지 Resize후 진행한 결과)
 ![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/9b302ee5-00b1-409a-9b72-dc87ae942d6b)
+```python
+!python train.py --img 480 --batch 10 --epochs 50 --data /content/drive/MyDrive/Rose/Dataset/data.yaml --cfg ./models/yolov5m.yaml --weights yolov5m.pt --name result7
+```
+![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/76e39fd2-24d3-4adf-80ea-7a341cd3ed1f)
+```python
+!python train.py --img 480 --batch 20 --epochs 60 --data /content/drive/MyDrive/Rose/Dataset/data.yaml --cfg ./models/yolov5m.yaml --weights yolov5m.pt --name result8
+```
 
 # 4. 이미지 Resize
 이미지 크기를 640*640으로 줄여주었음.
