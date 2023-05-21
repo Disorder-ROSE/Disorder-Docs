@@ -57,3 +57,13 @@ shift range 로만 양을 늘렸을땐 이미지양이 2배가 되었는데,
 
 이유: 용량문제, 다운속도
 
+# 5. 이미지 shuffle
+이미지 shift, reverse로도 성능이 나오지않아 이유를 생각해본 결과 
+
+train, valid, test에 원천이미지를 순서대로 나눠 저장하여서
+
+test에는 train에 없는 측면이미지로만 저장되어
+
+정확하게 측정되지 않았을수도있다 판단되어
+
+이미지를 shuffle하여 그 shuffle된 이미지에서 다시 shift, reverse하기로 함
