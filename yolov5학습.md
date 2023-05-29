@@ -67,3 +67,6 @@ test에는 train에 없는 측면이미지로만 저장되어
 정확하게 측정되지 않았을수도있다 판단되어
 
 이미지를 shuffle하여 그 shuffle된 이미지에서 다시 shift, reverse하기로 함
+
+![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/9725f549-39b1-4870-b609-e33cd238a801)
+mAP50이 많이 오른것을 확인
