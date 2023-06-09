@@ -70,3 +70,16 @@ test에는 train에 없는 측면이미지로만 저장되어
 
 ![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/9725f549-39b1-4870-b609-e33cd238a801)
 mAP50이 많이 오른것을 확인
+
+# 6. 이미지 몇개 빼기
+원본 데이터셋 이미지 114개에서 보편적으로 사람이 과자 사진을 찍을때 이렇게 안찍을것 같다고 느껴지는 이미지 24개를 뺐음
+
+뺀 이미지: 측면 이미지, 여러 개의 과자가 있는 이미지
+![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/14ea2dc2-ba58-4541-b55b-41f591bb1a0d)
+
+![image](https://github.com/Disorder-ROSE/Disorder-Docs/assets/101008357/5ab16f2c-cddb-4f00-af0c-fe544f2f47f6)
+하지만 mAP는 크게 달라지지 않았다
+
+
+
+
