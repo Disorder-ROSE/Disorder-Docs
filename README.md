@@ -3,21 +3,21 @@
 ## 핵심기능 1
 - [ ] 앱 UI/UX 디자인
 - [ ] flutter camera access
-- [ ] yolov5 custom
-	- [ ] 편의점 product image 수집 (편의점가서 이미지 파밍)
-	- [ ] data argumentaion를 이용하여 이미지 늘리기
-	- [ ] data annotation 라벨링
-	- [ ] training
+- [x] yolov5 custom
+	- [x] 편의점 product image 수집 (편의점가서 이미지 파밍)
+	- [x] data argumentaion를 이용하여 이미지 늘리기
+	- [x] data annotation 라벨링
+	- [x] training
 - [ ] tflite 변환
 - [ ] flutter와 connecting
 	
 ## 핵심기능 2
-- [ ] Flutter 게시판 UI/UX 제작
+- [x] Flutter 게시판 UI/UX 제작
 	- [x] 네이버 카페 게시판 형태 참고
-- [ ] DB 테이블 및 스키마 구성 (sqlite, firebase 등)
+- [x] DB 테이블 및 스키마 구성 (sqlite, firebase 등)
 - [ ] 로그인 기능 구현
-- [ ] 게시판 기능 구현
-- [ ] DB와 게시판 연동
+- [x] 게시판 기능 구현
+- [x] DB와 게시판 연동
 - [ ] 화면 txt 읽어주기
 	- DB에서 api로 받은 json중 게시판의 title, sub의 txt를 파싱하여 tts api를 통해 읽어줌
 	
