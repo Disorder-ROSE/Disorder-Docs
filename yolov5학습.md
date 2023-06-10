@@ -1,3 +1,4 @@
+yolov5 링크: https://drive.google.com/drive/folders/1lYeQuv5x81tRhSttatl-xmQzwODMV1d8?usp=sharing
 # 1. 데이터셋 Train, Validation, Test 7:2:1로 분류
 한 과자당 이미지가 총 114개이기 때문에
 Train=77+4(분류하고 남은거), Validation=22, Test=11 개로 각각 분류하였다.
