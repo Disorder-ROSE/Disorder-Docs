@@ -22,12 +22,12 @@
 	- DB에서 api로 받은 json중 게시판의 title, sub의 txt를 파싱하여 tts api를 통해 읽어줌
 	
 ## 핵심기능 3
-- [ ] 앱 UI/UX 디자인
-- [ ] LLM 기반 논문 리딩 및 ChatGPT, PaLM, llama 등의 모델 공부
-- [ ] 한글 데이터셋 생성
-	- [ ] Stanford Alpaca의 52k dataset 번역
-	- [ ] ChatGPT api를 이용한 추가 데이터 생성
-	- [ ] 네이버 지식in api 활용한 데이터 수집
-- [ ] Model Prompt 구현 및 파인튜닝
+- [x] 앱 UI/UX 디자인
+- [x] LLM 기반 논문 리딩 및 ChatGPT, PaLM, llama 등의 모델 공부
+- [x] 한글 데이터셋 생성
+	- [x] Stanford Alpaca의 52k dataset 번역
+	- [x] ChatGPT api를 이용한 추가 데이터 생성
+	- [x] 네이버 지식in api 활용한 데이터 수집
+- [x] Model Prompt 구현 및 파인튜닝
 - [ ] Fastapi를 사용하여 Rest api 작성
 - [ ] api형태로 배포하여 app에서 활용가능하게 결합
