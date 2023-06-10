@@ -1,8 +1,8 @@
 # Disorder-TODO
 
 ## 핵심기능 1
-- [ ] 앱 UI/UX 디자인
-- [ ] flutter camera access
+- [x] 앱 UI/UX 디자인
+- [x] flutter camera access
 - [x] yolov5 custom
 	- [x] 편의점 product image 수집 (편의점가서 이미지 파밍)
 	- [x] data argumentaion를 이용하여 이미지 늘리기
